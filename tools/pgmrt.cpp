@@ -201,7 +201,7 @@ inline void relax(void)
 #elif defined(__arm__)
 	asm volatile("nop\n");
 #else
-#error "Unsupported arch."
+//#error "Unsupported arch."
 #endif
 }
 

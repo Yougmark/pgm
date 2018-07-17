@@ -3804,8 +3804,8 @@ int pgm_wait(node_t node)
 
 	pgm_consume_skips(g, n); // decrement skip counts
 
-	if(ret == PGM_TERMINATE)
-		pgm_terminate(node);
+	//if(ret == PGM_TERMINATE)
+		//pgm_terminate(node);
 
 	return ret;
 }
